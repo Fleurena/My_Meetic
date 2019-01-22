@@ -1,0 +1,305 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url('../images/confectionary.png');
+}
+
+nav{
+    background-color: white;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 3px;
+    width: 100%;
+    height: 60px;
+}
+
+.container{
+    width: 1250px;
+	margin: 0 auto;
+}
+
+.menu, .menu ul{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	line-height: 2em;
+	float: right;
+}
+
+.menu a {
+	color: #e64280;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 250px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	height: 51px;
+}
+
+.menu_a{
+	margin-top: 15px;
+}
+.menu a:hover{
+	color: #76bd43;
+}
+
+.menu li{
+	float: left;
+	list-style: none;
+	position: relative;
+	height: 59px;
+}
+
+.menu ul{
+	line-height: 1.7em;
+	height: 121px;
+	position: absolute;
+	visibility: hidden;
+	padding-top: 5px;
+	background-color: white;
+}
+
+.menu ul a{
+	margin-top: 15px;
+}
+
+.menu a img{
+	width: 15%;
+	margin-top: 5px;
+	float: left;
+	margin-left: 41px;
+}
+.options{
+	border: 1px solid #dedede;
+}
+
+.logo{
+	width: 10%;
+	margin-left: 50px;
+	margin-top: 6px;
+}
+
+.compte{
+	margin-top: 5px;
+}
+
+#profil{
+	float: right;
+	margin-top: 10px;
+	margin-right: 55px;
+}
+
+/* BODY */
+
+.container_body{
+	width: 1250px;
+	margin: 0 auto;
+	padding-top: 19px;
+	height: 500px;
+}
+
+h1{
+	font-family: sans-serif;
+	color: #e64280;
+}
+
+h2, h3{
+	color: #e64280;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.profil_compte{
+	text-align: initial;
+}
+
+p{
+	font-family: sans-serif;
+	text-align: center;
+}
+
+form{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	border: 1px solid #e64280;
+}
+
+.profil{
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    width: 441px;
+    background-color: white;
+    height: 412px;
+}
+
+.informations{
+	margin-left: 473px;
+	padding-top: 10px;
+	width: 375px;
+}
+
+.profil img{
+	width: 78%;
+	float: left;
+	padding-top: 30px;
+	padding-left: 49px;
+}
+
+/* RECHERCHES */
+
+.recherches_container{
+	margin: 0 auto;
+	width: 1250px;
+
+}
+
+.container_form{
+	float: left;
+	width: 206px;
+}
+
+.form_recherches{
+	height: 400px;
+	padding-top: 0px;
+}
+
+.pretendants{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    background-color: white;
+    position: absolute;
+}
+
+.pretendants:hover{
+
+}
+
+.profil_recherches{
+	width: 100%;
+}
+
+.container_recherches_pretendants{
+	padding-top: 60px;
+	margin-left: 557px;
+	position: relative;
+	height: 600px;
+}
+
+.h2_recherches{
+	font-size: 25px;
+}
+
+.select_recherches{
+	width: 180px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	border: 1px solid #e64280;
+	color: #e64280;
+	height: 35px;
+}
+
+#submit{
+	width: 180px;
+	background-color: #e64280;
+	border: none;
+	color: white;
+	height: 35px;
+}
+
+#submit:hover{
+	background-color: #76bd43;
+}
+
+label{
+	font-family: sans-serif;
+}
+
+.ville{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#left-arrow{
+	font-size: 22px;
+	cursor: pointer;
+	margin-left: -76px;
+	float: left;
+	margin-top: 143px;
+	width: 53px;
+	height: 40px;
+	background-color: #e64280;
+	border-radius: 27px;
+	color: white;
+	padding-top: 12px;
+}
+
+#right-arrow{
+	font-size: 22px;
+	cursor: pointer;
+	width: 53px;
+	height: 40px;
+	margin-left: 347px;
+	margin-top: 143px;
+	float: left;
+	background-color: #e64280;
+	border-radius: 27px;
+	color: white;
+	padding-top: 12px;
+}
+
+#pass{
+	margin-left: 79px;
+	width: 180px;
+	border-radius: 5px;
+	border: 1px solid #e64280;
+}
+
+#new_pass{
+	margin-left: 57px;
+	margin-top: 10px;
+	width: 180px;
+	border-radius: 5px;
+	border: 1px solid #e64280;
+}
+
+#re_new_pass{
+	margin-left: 9px;
+	margin-top: 10px;
+	width: 180px;
+	border-radius: 5px;
+	border: 1px solid #e64280;
+}
+
+#new_mail{
+	width: 180px;
+	border-radius: 5px;
+	border: 1px solid #e64280;
+}
+
+#select_compte{
+	width: 180px;
+	border-radius: 5px;
+	border: 1px solid #e64280;
+	color: #e64280;
+}
+
+.sub{
+	margin-top: 15px;
+	width: 150px;
+	height: 30px;
+	background-color: #e64280;
+	color: white;
+	border: none;
+}
+
+.sub:hover{
+	background-color: #76bd43;
+}

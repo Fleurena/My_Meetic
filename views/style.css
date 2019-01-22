@@ -1,0 +1,174 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("../images/city2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Connexion{
+	float: right;
+	margin-right: 20px;
+	background-color: #38bee0;
+	border-radius: 40px;
+	margin-top: 19px;
+	width: 166px;
+	height: 48px;
+	text-decoration: none;
+}
+
+.Connexion:hover{
+	background-color: #0b8fb0;
+}
+
+.inscription{
+	float: right;
+	margin-right: 20px;
+	background-color: #38bee0;
+	border-radius: 40px;
+	margin-top: 19px;
+	width: 166px;
+	height: 48px;
+	text-decoration: none;
+}
+
+.inscription:hover{
+	background-color: #0b8fb0;
+}
+
+.container_all{
+	display: flex;
+	margin-top: 116px;
+	margin-left: 205px;
+}
+
+.logo{
+	height: 69px;
+	text-align: center;
+	padding-top: 1px;
+}
+
+img{
+	width: 58%;
+	margin-top: -119px;
+	margin-left: 105px;
+}
+
+.container{
+	width: 490px;
+	height: 538px;
+	background-color: rgba(255,255, 255, 0.2);
+	box-shadow: rgba(0,0,0,0.3) 0 4px 2px;
+}
+
+form{
+	margin-left: 35px;
+	padding-top: 7px; 
+}
+
+label{
+	padding-right: 10px;
+}
+
+input{
+	margin-bottom: 17px;
+	width: 265px;
+	height: 28px;
+}
+
+p, h1, h2, h3{
+	color: white;
+	font-family: sans-serif;
+}
+
+h1{
+	font-size: 19px;
+	margin-left: 27px;
+	margin-top: 13px;
+	text-transform: uppercase;
+}
+
+#inscrivez{
+	margin-right: -36px;
+	transform: rotate(-4deg);
+	font-family: 'Dancing Script', cursive;
+	font-size: 45px;
+	height: 56px;
+}
+
+#vous{
+	padding-top: 51px;
+	margin-right: 41px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 45px;
+	margin-left: -74px;
+	height: 56px;
+}
+
+#inscrivez:hover, #vous:hover{
+	color: #e64280;
+}
+
+#nom{
+	margin-left: 82px;
+}
+
+#prenom{
+	margin-left: 61px;
+}
+
+#i_am{
+	margin-left: 58px;
+	width: 266px;
+	margin-bottom: 20px;
+	margin-top: 3px;
+	height: 28px;
+}
+
+#naissance{
+	margin-left: 52px;
+}
+
+#ville{
+	margin-left: 79px;
+}
+
+#email{
+	margin-left: 71px;
+}
+#pass{
+	margin-left: 14px;
+}
+#re_pass{
+	margin-left: 15px;
+}
+
+#submit{
+	width: 404px;
+	height: 40px;
+	margin-top: 11px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 25px;
+	background-color: #76bd43;
+	color: white;
+	border: none;
+}
+
+#submit:hover{
+	background-color: #e64280;
+	color: white;
+	border: none;
+}
+
+.messages{
+	background-color: rgba(244, 56, 56, 0.8);
+	color: white; 
+	height: 40px;
+	border-radius: 8px;
+	text-align: center;
+	padding-top: 19px;
+	font-family: sans-serif;
+}
